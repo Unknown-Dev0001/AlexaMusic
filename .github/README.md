@@ -3,11 +3,13 @@
 <h4 align="center">
     Introducing Alexa Music – your smart, powerful, and simple bot for seamless audio and video playback on Telegram. Written in Python with the latest Pyrogram, Alexa Music delivers a superior entertainment experience. Upgrade now for optimal performance and a new level of Telegram enjoyment.<br> Working With Pyrogram Latest Version...
 </h4>
+<br>
 <p align="center">
     <a href="https://t.me/Alexa_BotUpdates">
-        <img src="cover.png">
+        <img src="https://telegra.ph/file/f6064bc90cc76e59015b2.jpg" width="650">
     </a>
 </p>
+<br>
 <p align="center">
     <a href="https://github.com/TheTeamAlexa/AlexaMusic"> <img src="https://img.shields.io/github/repo-size/TheTeamAlexa/AlexaMusic?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/TheTeamAlexa/AlexaMusic/commits"> <img src="https://img.shields.io/github/last-commit/TheTeamAlexa/AlexaMusic?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>
@@ -16,6 +18,7 @@
     <a href="https://pypi.org/project/Pyrogram"> <img src="https://img.shields.io/pypi/v/Kurigram?color=yellow&label=Pyrogram&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
+<br>
 
 > [!IMPORTANT]
 >## <h2 align="center"><b>🚀 Fix for YouTube IP Blocking & Sign-In Errors </b></h2>
@@ -126,121 +129,127 @@ Through this repository, we hope to share our passion for music and innovation w
 <p><a href="https://github.com/TheTeamAlexa/AlexaMusic/blob/master/genstring.py"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200"/></a></p>
 <br>
 
-<h4><b>💻 Lᴏᴄᴀʟ Hᴏsᴛɪɴɢ ᴏʀ VPS Dᴇᴘʟᴏʏᴍᴇɴᴛ Gᴜɪᴅᴇ. 🗄️</b></h4> 
+### 💻 ᴀʟᴇxᴀ ᴍᴜsɪᴄ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ɢᴜɪᴅᴇ ᴏɴ ʟᴏᴄᴀʟ sᴇʀᴠᴇʀ ᴏʀ ᴠᴘs 🗄️
 <br>
 <details>
-<summary><b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</b> (ᴜʙᴜɴᴛᴜ 𝟸𝟶,𝟸𝟸)</summary>
-<br>
+<summary><strong>Ubuntu 20.04 / 22.04 Setup</strong></summary>
 
-1.  Upgrade and Update:
-```console
+#### 🧩 Step-by-Step Installation
+
+**1. Update & Upgrade the System**
+```bash
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 
-2. Installing Required Packages:
-```console
+**2. Install Required Packages**
+```bash
 sudo apt-get install python3-pip ffmpeg -y
 ```
 
-3. Setting up PIP
-```console
+**3. Upgrade pip**
+```bash
 sudo pip3 install -U pip
 ```
 
-4. Clone the Repository
-```console
+**4. Clone the Repository**
+```bash
 git clone https://github.com/TheTeamAlexa/AlexaMusic && cd AlexaMusic
 ```
 
-5. Install Requirements
-```console
+**5. Install Python Requirements**
+```bash
 pip3 install -U -r requirements.txt
 ```
 
-6. Create .env  with sample.env
-```console
+**6. Create `.env` File**
+```bash
 cp sample.env .env
 ```
-> Edit .env with your vars. 
+> Now edit `.env` with your configuration variables.
 
-7. Editing Vars:
-```console
+**7. Edit Environment Variables**
+```bash
 vi .env
 ```
-> Edit .env with your values or you can simple copy a config from here and paste it to your notepad, then edit and paste there.
-> Press I button on keyboard to start editing.
-> Press Ctrl + C  once you are done with editing vars and type :wq to save .env or :qa to exit editing.
+> - Press `I` to start editing.  
+> - Press `Ctrl + C`, then type `:wq` to save and exit.  
+> - Use `:qa` to quit without saving.
 
-8. Install Tmux : 
-```console
+**8. Install and Start Tmux**
+```bash
 sudo apt install tmux && tmux
 ```
 
-9. Finally Run Alexa Music Bot
-```console
+**9. Start the Bot**
+```bash
 bash start
 ```
 </details>
 
 <br>
 <details>
-<summary><b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</b> (ᴜʙᴜɴᴛᴜ 𝟸4)</summary>
-<br>
+<summary><strong>Ubuntu 24.04 Setup</strong></summary>
 
-1.  Upgrade and Update:
-```console
+#### 🧩 Step-by-Step Installation
+
+**1. Update & Upgrade the System**
+```bash
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 
-2. Installing Required Packages:
-```console
+**2. Install Required Packages**
+```bash
 sudo apt-get install python3-pip ffmpeg -y
 ```
 
-3. Setting up PIP
-```console
+**3. Upgrade pip**
+```bash
 sudo pip3 install -U pip
 ```
 
-4. Clone the Repository
-```console
+**4. Clone the Repository**
+```bash
 git clone https://github.com/TheTeamAlexa/AlexaMusic && cd AlexaMusic
 ```
 
-5. Install Requirements
-```console
+**5. Install Python Requirements (Ubuntu 24 specific)**
+```bash
 pip install -r requirements.txt --break-system-packages
 ```
 
-6. Create .env  with sample.env
-```console
+**6. Create `.env` File**
+```bash
 cp sample.env .env
 ```
-> Edit .env with your vars. 
+> Edit `.env` with your bot configuration.
 
-7. Editing Vars:
-```console
+**7. Edit Environment Variables**
+```bash
 vi .env
 ```
-> Edit .env with your values or you can simple copy a config from here and paste it to your notepad, then edit and paste there.
-> Press I button on keyboard to start editing.
-> Press Ctrl + C  once you are done with editing vars and type :wq to save .env or :qa to exit editing.
+> - Press `I` to edit.  
+> - Press `Ctrl + C`, then type `:wq` to save.  
+> - Use `:qa` to quit without saving.
 
-8. Install Tmux : 
-```console
+**8. Install and Start Tmux**
+```bash
 sudo apt install tmux && tmux
 ```
 
-9. Finally Run Alexa Music Bot
-```console
+**9. Start the Bot**
+```bash
 bash start
 ```
 </details>
 
-
-<summary><b>sᴄᴀʟɪɴɢᴏ</b></summary>
 <br>
+<summary><b>sᴄᴀʟɪɴɢᴏ</b></summary>
+
+<br>
+
 ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴅᴇᴘʟᴏʏ ᴀʟᴇxᴀ ᴍᴜsɪᴄ ᴏɴ sᴄᴀʟɪɴɢᴏ ɪɴᴛʀᴏᴅᴜᴄᴇᴅ ʙʏ @ITZ-ZAID
+
+<br>
 
 <p><a href="https://my.scalingo.com/deploy?template=https://github.com/TheTeamAlexa/AlexaMusic"> <img src="https://cdn.scalingo.com/deploy/button.svg" width="220" height="38.45"/></a></p>
 
@@ -248,17 +257,30 @@ bash start
 <summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
 <br>
 
-> ʜᴇʀᴏᴋᴜ ʜᴀs ᴛᴡᴏ ᴠᴀʀs[ ʜᴇʀᴏᴋᴜ_ᴀᴘɪ_ᴋᴇʏ & ʜᴇʀᴏᴋᴜ_ᴀᴘᴘ_ɴᴀᴍᴇ ] ғᴏʀ ᴜᴘᴅᴀᴛᴇʀ ᴛᴏ ᴡᴏʀᴋ. 
-> ʙʏ sᴇᴛᴛɪɴɢ ᴛʜᴏsᴇ ᴛᴡᴏ ᴠᴀʀs ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ʟᴏɢs ᴏғ ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴘᴘ, sᴇᴛ ᴠᴀʀ, ᴇᴅɪᴛ ᴠᴀʀ, ᴅᴇʟᴇᴛᴇ ᴠᴀʀs , ᴄʜᴇᴄᴋ ᴅʏɴᴏ ᴜsᴀɢᴇ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇ ʙᴏᴛ. 
-> ᴛʜᴏsᴇ ᴛᴡᴏ ᴠᴀʀs ᴀʀᴇ ɴᴏᴛ ᴍᴀɴᴅᴀᴛᴏʀʏ, ʏᴏᴜ ᴄᴀɴ ʟᴇᴀᴠᴇ ᴛʜᴇᴍ ʙʟᴀɴᴋ ᴛᴏᴏ. 
-    
+> ʜᴇʀᴏᴋᴜ ʜᴀs ᴛᴡᴏ ᴠᴀʀs [ʜᴇʀᴏᴋᴜ_ᴀᴘɪ_ᴋᴇʏ & ʜᴇʀᴏᴋᴜ_ᴀᴘᴘ_ɴᴀᴍᴇ] ғᴏʀ ᴜᴘᴅᴀᴛᴇʀ ᴛᴏ ᴡᴏʀᴋ.
+> ʙʏ sᴇᴛᴛɪɴɢ ᴛʜᴏsᴇ ᴛᴡᴏ ᴠᴀʀs ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ʟᴏɢs ᴏғ ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴘᴘ, sᴇᴛ ᴠᴀʀ, ᴇᴅɪᴛ ᴠᴀʀ, ᴅᴇʟᴇᴛᴇ ᴠᴀʀs , ᴄʜᴇᴄᴋ ᴅʏɴᴏ ᴜsᴀɢᴇ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇ ʙᴏᴛ.
+> ᴛʜᴏsᴇ ᴛᴡᴏ ᴠᴀʀs ᴀʀᴇ ɴᴏᴛ ᴍᴀɴᴅᴀᴛᴏʀʏ, ʏᴏᴜ ᴄᴀɴ ʟᴇᴀᴠᴇ ᴛʜᴇᴍ ʙʟᴀɴᴋ ᴛᴏᴏ.
+<br>
 <h4> ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴀʟᴇxᴀ ᴏɴ ʜᴇʀᴏᴋᴜ</h4>    
-<p><a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FTheTeamAlexa%2FAlexaMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/></a></p>
+<p><a href="http://dashboard.heroku.com/new?template=https://github.com/TheTeamAlexa/AlexaMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/></a></p>
 
-<h4>ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ɪꜰ ʏᴏᴜ ᴀʀᴇ ꜰᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴏʀ  ᴀᴄᴄᴏᴜɴᴛ sᴜsᴘᴇɴsɪᴏɴ ɪssᴜᴇ ᴛᴏ ʙʏᴘᴀss ᴀɴʏ ʀᴇsᴛʀɪᴄᴛɪᴏɴ ᴏɴ ʜᴇʀᴏᴋᴜ ᴏʀ ʀᴀɪʟᴡᴇʏ</h4>    
-<p><a href="https://github.com/TheTeamAlexa/AlexaMusic-Bypass"><img src="https://img.shields.io/badge/Alexa-Music%20Bypass-blue.svg?style=for-the-badge&logo=GitHub"></a></p>
 <br>
 
+<summary><b>⚡ ʀᴇɴᴅᴇʀ</b></summary>
+
+<br>
+
+<p><a href="https://render.com/deploy?repo=github.com/TheTeamAlexa/AlexaMusic"> <img src="https://img.shields.io/badge/Deploy%20to-Render-blue?style=for-the-badge&logo=render" width="220" height="33"/></a></p>
+
+<br>
+
+<summary><b>☁️ ᴋᴏʏᴇʙ</b></summary>
+
+<br>
+
+<p><a href="https://app.koyeb.com/deploy?type=git&repository=github.com/TheTeamAlexa/AlexaMusic"> <img src="https://www.koyeb.com/static/images/deploy/button.svg"/></a></p>
+
+<br>
 
 <h1 align="center"><b>❤️ ᴏᴡɴᴇʀ ᴀɴᴅ ᴄʀᴇᴅɪᴛ ❤️</b></h1>
 <details>
@@ -311,21 +333,30 @@ bash start
 - [Yt-dlp](https://pypi.org/project/yt-dlp)
 </details>
 
-
+<br>
 <p align="center">
   <a href="https://www.buymeacoffee.com/theteamalexa">
     <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%23FF813F.svg?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me a Coffee">
   </a>
 </p>
+<br>
 
+<div align="center">
 
-### Asad– History
+# Asad– History
+<br>
+<a href="https://www.youtube.com/JankariKiDuniya">
+  <img src="https://img.shields.io/badge/Join-Subscribe%20Support-blue.svg?style=for-the-badge&logo=YouTube">
+</a>
 
-<a href="https://www.youtube.com/JankariKiDuniya"><img src="https://img.shields.io/badge/Join-Subscribe%20Support-blue.svg?style=for-the-badge&logo=YouTube"></a>
+<br>
 
+⭐️ Thanks to everyone for using Alexa, 🤭 That is the greatest pleasure we have !
 
-> ⭐️ Thanks to everyone for using Alexa, 🤭 That is the greatest pleasure we have !
+<br>
 
 ### 📊 Repo Views Counter
 
 ![Views](https://profile-counter.glitch.me/AlexaMusic/count.svg)
+
+</div>
